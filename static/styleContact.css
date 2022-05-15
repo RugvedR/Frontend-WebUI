@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 14px 0;
+}
+
+.container{
+    margin: 30px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{ 
+    font-family: 'Oxygen', sans-serif;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    padding: 9px;
+    margin: 9px;
+    border: 2px solid black;
+    border-radius: 7px;
+    outline: none;
+}
+
+.btn{
+    padding: 8px 10px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 196, 0);
+    color: black;
+}

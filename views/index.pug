@@ -1,0 +1,61 @@
+doctype html 
+html 
+    head
+        title Dance Academy
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar 
+            ul 
+                div#logo 
+                    img(src="/static/img/dance4.png")
+                    | DA
+                li #[a(href="/") Home ]
+                li #[a(href="/") About ]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact us]
+        section#introSection 
+            div Welcome to the World of Dance.
+            div.smallcont Eat. Sleep. Dance. Repeat.
+
+        section#missionSection 
+            h3 Our Mission
+
+            div.card 
+                h4 Dance Perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/dance1.png")
+                    div.card-content 
+                        p This is the best dance academy of the universe.
+            div.card 
+                h4 The way you like
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/dance2.png")
+                    div.card-content 
+                        p This is the best dance academy of the universe.
+            div.card 
+                h4 Expert teaching
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/dance3.png")
+                    div.card-content 
+                        p This is the best dance academy of the universe.
+
+        section#sponserSection 
+            h3 Our Sponsers
+            div#sponsers 
+                img(src="/static/img/logo1.png", alt="sponser image", class="spImage")
+                img(src="/static/img/logo2.png", alt="sponser image", class="spImage")
+                img(src="/static/img/logo5.png", alt="sponser image", class="spImage")
+                img(src="/static/img/logo3.png", alt="sponser image", class="spImage")
+                //- img(src="/static/img/logo4.png", alt="sponser image", class="spImage")
+
+
+        
+        footer#footer 
+            | Copyright 2022 DanceAcademy.com
+        script 
+            include ../static/index.js  

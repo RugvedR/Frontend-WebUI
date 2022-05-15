@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-family: 'Tapestry', cursive;    
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 28px;
+    filter: invert(1);
+}
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    padding: 13px 14px;
+    z-index: 1;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+    
+}
+
+#navbar li a{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 13px 30px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color: rgb(255, 196, 0);
+}
+
+#navbar li a:active{
+    color: rgb(255, 196, 0);
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url('/static/bg.jpg');
+    height: 500px;
+    /* background-color: red; */
+    opacity: 0.8;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 56px;
+}
+
+
+#introSection .smallcont{
+    font-size: 35px;
+    padding: 44px;
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+
+}
+
+#missionSection{
+    height: 320px;
+    background-color: rgb(255, 196, 0);
+}
+
+#missionSection h3{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.4rem;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 23px 20px;
+    width: 25%;
+    height: 210px;
+}
+
+.card h4{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 130px;
+    padding: 0px 14px;
+    margin: 9px 7px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 18px;
+}
+
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+#sponserSection{
+    height: 300px;
+    background-color: white;
+}
+
+#sponserSection h3{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.4rem;
+}
+
+#sponsers{
+    height: 130px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    height: 40px;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+
